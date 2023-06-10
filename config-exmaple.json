@@ -1,0 +1,76 @@
+{
+  "logPath": "./logs/",
+
+  "connectionTimeout": 600,
+  "maxConnectionsFromSameIP": 10,
+  "whitelistIps": [],
+
+  "jobExpiryPeriod": 10,
+
+  "banning": {
+    "enabled": true,
+    "time": 600,
+    "invalidPercent": 50,
+    "checkThreshold": 500,
+    "purgeInterval": 300
+  },
+
+  "statsCollectionInterval": 600,
+  "window": 1800,
+  "largeWindow": 10800,
+  "apiInterval": 5,
+
+  "diff1TargetNumZero": 30,
+  "pool": {
+    "port": 9577,
+    "diff": 1,
+    "proxyProtocol": false,
+
+    "varDiff": {
+      "minDiff": 1,
+      "maxDiff": 4096,
+      "targetTime": 2.5,
+      "retargetTime": 90,
+      "variancePercent": 30
+    }
+  },
+
+  "daemon": {
+    "host": "127.0.0.1",
+    "port": 12973,
+    "minerApiPort": 10973
+  },
+
+  "redis": {
+    "host": "127.0.0.1",
+    "port": 6379,
+    "db": 2,
+    "baseName": "alephium"
+  },
+
+  "withholdPercent": 0.01,
+  "rewardEnabled": true,
+  "rewardInterval": 600,
+  "confirmationTime": 30600,
+
+  "paymentEnabled": true,
+  "minPaymentCoins": "1.0",
+  "paymentInterval": 3600,
+  "txConfirmations": {
+    "chainConfirmations": 10,
+    "fromGroupConfirmations": 5,
+    "toGroupConfirmations": 5
+  },
+
+  "addresses": [
+    "1A5BAat8uTnpjuuHEBvpDG1sQQEcq5satwp5nXcKt5Qxe",
+    "16u68ZPynAEZVg8EHom8JyiGqKasiRjE7e9TZVxENdziU",
+    "17YbBDjiqD9me4XAxHPTxz4jG4C83ujfUx1Hs9CHFwiWn",
+    "1HmpHG1FDW6Y3B7Bh5cbdQfHzaGKaRg2eDiqrcWkUevNH"
+  ],
+
+  "wallet": {
+    "name": "dogfart",
+    "password": "[jxtimvtyznhf[yenmblbc.lfzcfvnt,znhf[ye]"
+  }
+}
