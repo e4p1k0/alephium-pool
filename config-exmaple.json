@@ -1,5 +1,6 @@
 {
   "logPath": "./logs/",
+  "noVerboseLog": false,
 
   "connectionTimeout": 600,
   "maxConnectionsFromSameIP": 10,
