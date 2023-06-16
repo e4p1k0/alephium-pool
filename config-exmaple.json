@@ -52,6 +52,8 @@
   "withholdPercent": 0.01,
   "rewardEnabled": true,
   "rewardInterval": 600,
+
+  "minConfirmationTime": 60,
   "confirmationTime": 30600,
 
   "paymentEnabled": true,
